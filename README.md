@@ -1,2 +1,140 @@
-# MY_HUNTER-SHADOW-VERSION
-MY_HUNTER / EPITECH PROJECT
+# 🦆 MY_HUNTER
+
+## 🧭 DESCRIPTION DU PROJET
+
+Objectif : Refaire le célèbre jeu DUCK HUNT, en CSFML avec l'aide de notre imagination et les fonctions de la lib CSFML.
+
+---
+
+## 🗓️ DATES
+
+📅 **Du 28/10/2025 à 09h00 au 21/11/2025 à 19h42**
+
+---
+
+## 🚀 UTILISATION
+
+```bash
+./my_hunter -h (affiche les paramètres du jeu et les différentes fonctionnalités de celui-ci)
+./my_hunter -> lance le jeu
+```
+
+📁 FICHIERS :
+
+Projet dispersé en plusieurs sous-dossiers et fichiers pour avoir plus de clarté sur celui-ci.
+
+```bash
+├── include
+│   ├── my.h
+│   └── hunter.h
+├── lib
+│   ├── libmy.a
+│   └── my
+├── Makefile
+├── my_hunter
+└── src/
+```
+
+📁 STRUCTURE DU PROJET :
+
+Séparation des différentes parties du code dans des dossiers / fichiers distincts.
+
+```bash
+├── include
+│   ├── assets
+│   │   ├── song
+│   │   │   ├── all_of_me.ogg
+│   │   │   ├── ring_effect.ogg
+│   │   │   └── seven_rings_menu.ogg
+│   │   └── sprites
+│   │       ├── game_over.png
+│   │       ├── menu_up.png
+│   │       ├── play_shadow.png
+│   │       ├── quit_shadow.png
+│   │       ├── shadow_game.png
+│   │       ├── shadow_menu.png
+│   │       ├── shadow_score.png
+│   │       └── shadow_sprite.png
+│   ├── hunter.h
+│   └── my.h
+├── lib
+│   ├── libmy.a
+│   └── my
+│       ├── libmy.a
+│       ├── Makefile
+│       ├── my_atoi.c
+│       ├── my_compute_power_rec.c
+│       ├── my_compute_square_root.c
+│       ├── my_find_prime_sup.c
+│       ├── my_getnbr.c
+│       ├── my.h
+│       ├── my_isneg.c
+│       ├── my_is_prime.c
+│       ├── my_putchar.c
+│       ├── my_puterror.c
+│       ├── my_put_nbr.c
+│       ├── my_putstr.c
+│       ├── my_revstr.c
+│       ├── my_showmem.c
+│       ├── my_showstr.c
+│       ├── my_sort_int_array.c
+│       ├── my_strcapitalize.c
+│       ├── my_strcat.c
+│       ├── my_strcmp.c
+│       ├── my_strcpy.c
+│       ├── my_strdup.c
+│       ├── my_str_isalpha.c
+│       ├── my_str_islower.c
+│       ├── my_str_isnum.c
+│       ├── my_str_isprintable.c
+│       ├── my_str_isupper.c
+│       ├── my_strlen.c
+│       ├── my_strlowcase.c
+│       ├── my_strncat.c
+│       ├── my_strncmp.c
+│       ├── my_strncpy.c
+│       ├── my_strstr.c
+│       ├── my_str_to_word_array.c
+│       ├── my_strupcase.c
+│       └── my_swap.c
+├── Makefile
+├── my_hunter
+└── src
+    ├── destroy
+    │   └── destroy.c
+    ├── events
+    │   └── manage_events.c
+    ├── game
+    │   ├── load_music_game.c
+    │   └── main_loop.c
+    ├── main.c
+    ├── menu
+    │   ├── load_music_menu.c
+    │   └── menu.c
+    ├── score
+    │   └── load_score.c
+    ├── sounds
+    │   └── init_sounds.c
+    ├── sprite
+    │   ├── animations.c
+    │   ├── load_sprite.c
+    │   └── move_sprite.c
+    └── window
+        ├── put_game.c
+        └── window_game.c
+```
+
+⚙️ Étapes pour pouvoir réaliser le projet :
+
+1 - Trouver / Afficher correctement les sprites.
+
+2 - Définir les mouvements des sprites avec sfClock.
+
+3 - Trouver les bons sons / bien les accorder.
+
+4 - Faire un menu / jeu agréables à regarder.
+
+5 - Trouver des bonus à implémenter.
+
+6 - Finir le projet avec quelques références au jeu DUCK HUNT.
+
